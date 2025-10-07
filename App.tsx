@@ -1,3 +1,3 @@
-// Re-export from src/App to maintain compatibility
-import App from './src/App';
-export default App;
+// This file is kept for compatibility but not used
+// Main entry point is now /main.tsx -> /src/App.tsx
+export { default } from './src/App';
